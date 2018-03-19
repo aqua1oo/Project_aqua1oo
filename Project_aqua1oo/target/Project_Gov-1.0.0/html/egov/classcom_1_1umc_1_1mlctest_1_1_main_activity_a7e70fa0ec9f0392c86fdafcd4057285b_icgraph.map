@@ -1,0 +1,8 @@
+<map id="com.umc.mlctest.MainActivity.getSessionHandle" name="com.umc.mlctest.MainActivity.getSessionHandle">
+<area shape="rect" id="node3" href="$classcom_1_1umc_1_1mlctest_1_1_app_list_activity.html#aede93c98bcf1635dac073361634be64c" title="com.umc.mlctest.AppListActivity.on\lCreate" alt="" coords="561,9,791,50"/>
+<area shape="rect" id="node5" href="$classcom_1_1umc_1_1mlctest_1_1_app_list_activity.html#ab7f836f523d3186d20d86139b7cfda9c" title="com.umc.mlctest.AppListActivity.on\lActivityResult" alt="" coords="277,38,507,80"/>
+<area shape="rect" id="node7" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#a86e6877a55fd2f17948a313646d64f5e" title="com.umc.mlctest.MainActivity.update\lAppList" alt="" coords="272,104,512,145"/>
+<area shape="rect" id="node12" href="$classcom_1_1umc_1_1mlctest_1_1_mlc_disp_activity.html#a320e088625b8a9b7101ff4653c8448a8" title="com.umc.mlctest.MlcDispActivity.on\lCreate" alt="" coords="275,169,509,210"/>
+<area shape="rect" id="node14" href="$classcom_1_1umc_1_1mlctest_1_1_mlc_set_config_activity.html#a4b3b9611843c0881cd6b86e6c8e134b1" title="com.umc.mlctest.MlcSetConfig\lActivity.onCreate" alt="" coords="290,234,494,276"/>
+<area shape="rect" id="node10" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#a4f4a9b680740817325865bfc5253ded0" title="com.umc.mlctest.MainActivity.on\lAppListUpdate" alt="" coords="569,104,783,145"/>
+</map>

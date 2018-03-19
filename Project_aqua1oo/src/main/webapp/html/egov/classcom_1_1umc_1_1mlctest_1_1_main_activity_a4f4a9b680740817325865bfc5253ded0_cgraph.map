@@ -1,0 +1,6 @@
+<map id="com.umc.mlctest.MainActivity.onAppListUpdate" name="com.umc.mlctest.MainActivity.onAppListUpdate">
+<area shape="rect" id="node3" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#a86e6877a55fd2f17948a313646d64f5e" title="com.umc.mlctest.MainActivity.update\lAppList" alt="" coords="283,37,523,78"/>
+<area shape="rect" id="node9" href="$interfacecom_1_1umc_1_1mlctest_1_1_main_activity_1_1_internal_m_l_ccallback.html#a8aebb6994d1bb1880ff55d40f3554347" title="com.umc.mlctest.MainActivity.\lInternalMLCcallback.showUpdatedAppList" alt="" coords="270,102,535,143"/>
+<area shape="rect" id="node5" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#a7e70fa0ec9f0392c86fdafcd4057285b" title="com.umc.mlctest.MainActivity.get\lSessionHandle" alt="" coords="593,5,812,46"/>
+<area shape="rect" id="node7" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#a682055ce9a5bdf7d6358e7bfcf1fc6f2" title="com.umc.mlctest.MainActivity.check\lDriveCertified" alt="" coords="585,70,821,111"/>
+</map>

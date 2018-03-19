@@ -1,0 +1,4 @@
+<map id="com.umc.mlctest.MainActivity.onDeviceRemoved" name="com.umc.mlctest.MainActivity.onDeviceRemoved">
+<area shape="rect" id="node3" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#ad1477b1e171f46f57da504941f20da02" title="com.umc.mlctest.MainActivity.enable\lExitButton" alt="" coords="274,5,513,46"/>
+<area shape="rect" id="node5" href="$interfacecom_1_1umc_1_1mlctest_1_1_main_activity_1_1_internal_m_l_ccallback.html#a03ba0e53db9790be7436e64796a505a7" title="com.umc.mlctest.MainActivity.\lInternalMLCcallback.onDeviceRemoved" alt="" coords="269,70,517,111"/>
+</map>

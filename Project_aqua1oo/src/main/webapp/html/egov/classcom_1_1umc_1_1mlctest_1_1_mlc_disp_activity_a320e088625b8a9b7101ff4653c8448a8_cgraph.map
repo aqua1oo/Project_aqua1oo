@@ -1,0 +1,12 @@
+<map id="com.umc.mlctest.MlcDispActivity.onCreate" name="com.umc.mlctest.MlcDispActivity.onCreate">
+<area shape="rect" id="node3" href="$classcom_1_1umc_1_1mlctest_1_1_mlc_disp_activity.html#a5c5c222186fc8578ad1e6b65670142ef" title="com.umc.mlctest.MlcDispActivity.set\lCustomTextFont" alt="" coords="289,5,527,46"/>
+<area shape="rect" id="node5" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#adac68fdf297e6a7f44da164618a8f14b" title="com.umc.mlctest.MainActivity.set\lInternalCb" alt="" coords="299,70,517,111"/>
+<area shape="rect" id="node7" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#a7d832ca3e49759511ce3b070083a4e23" title="com.umc.mlctest.MainActivity.get\lMlcInitConfigParamObject" alt="" coords="299,135,517,177"/>
+<area shape="rect" id="node9" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#af0d1b7b497f211600fbf294e1777dff0" title="com.umc.mlctest.MainActivity.get\lMLCInitAppFilterArgObject" alt="" coords="299,201,517,242"/>
+<area shape="rect" id="node11" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#a62c0cac77dee5d81614d862ae90c8a9b" title="com.umc.mlctest.MainActivity.get\lMLCInitAppCertFilterArgObject" alt="" coords="299,266,517,307"/>
+<area shape="rect" id="node13" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#ab2428f40237bb900f92baf587d392606" title="com.umc.mlctest.MainActivity.get\lMLCInitContentRuleObject" alt="" coords="299,331,517,373"/>
+<area shape="rect" id="node15" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#a4d6f55ab60bb1330222492e33e4a7ccd" title="com.umc.mlctest.MainActivity.get\lMirrorLinkClient" alt="" coords="299,397,517,438"/>
+<area shape="rect" id="node17" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#a7e70fa0ec9f0392c86fdafcd4057285b" title="com.umc.mlctest.MainActivity.get\lSessionHandle" alt="" coords="299,462,517,503"/>
+<area shape="rect" id="node19" href="$classcom_1_1umc_1_1mlctest_1_1_main_activity.html#a175d6e5cbdda12c57c5c2dbf8c10e9d0" title="com.umc.mlctest.MainActivity.get\lMLCDeviceHandle" alt="" coords="299,527,517,569"/>
+<area shape="rect" id="node21" href="$classcom_1_1umc_1_1mlctest_1_1_mlc_disp_activity.html#ab1cb40a1547d8fa5125d23c6dc2b4148" title="com.umc.mlctest.MlcDispActivity.on\lBackPressed" alt="" coords="291,593,525,634"/>
+</map>
