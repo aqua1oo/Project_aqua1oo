@@ -27,6 +27,7 @@ var authcode;
 
 var stop_array = ['스탑','스톱','스 톱','스 탑','스으탑','스으톱','스으 톱','스으 탑','그만','그 만','그으만','그으 만'];
 var ah_array = ['냉장고','에어컨','세탁기','공기청정기'];
+var command_array = ['켜줘','켜','켜주세요','켜어줘','꺼줘','꺼','꺼주세요','꺼어줘'];
 
 $(document).ready(function(){
 	init();
@@ -62,6 +63,7 @@ function startGiGAGenie(){
 			alert('다시해보세요');
 			//startGiGAGenie();
 		}
+		
 		//startNineNine();
 	});	
 	
@@ -71,12 +73,13 @@ function sendTTS(text) {
 	var options={};
 	options.ttstext=text;
 	gigagenie.voice.sendTTS(options,function(result_cd,result_msg,extra){
-	    if(result_cd===200){
-	    	alert('12345');
+	    if(result_cd===200){	    	
+	    	//alert('12345');
 	        //do next action
 	    } else {
 	        //extra.reason 에 voice 오류 전달.
 	    };
+	    setTimeout('startGiGAGenie()',2000);
 	});
 }
 
@@ -102,27 +105,28 @@ function checkVoiceText(command) {
 	}else{	
 		
 		var temp;
-		var code;		
+		var code;
+		var comTemp;
 		var com;
 		
 		for(var i = 0; i < command.length; i++){
 			temp = command.substring(0,i+1);
 			code = $.inArray(temp, ah_array);						
-			com = command.substring(i+1,command.length).replace(/(\s*)/g, "");
+			comTemp = command.substring(i+1,command.length).replace(/(\s*)/g, "");
+			com = $.inArray(comTemp, command_array);
 			if(code != -1)break;
 		}
 
 		if(code != -1){
 			sendControllCode(code, com); 
 		}else{
-			/* text = "해당 기기는[P2]지원되지 않습니다[P2]다른 기기로[P2]시도하여 주십시오";
-			sendTTS(text); */
-			alert('해당 기기는 지원되지 않습니다. 다른 기기로 시도하여 주십시오.');
-			startGiGAGenie();
+			text = "해당 기기는[P2]지원되지 않습니다[P2]다른 기기로[P2]시도하여 주십시오";
+			sendTTS(text);
+			/* alert('해당 기기는 지원되지 않습니다. 다른 기기로 시도하여 주십시오.');
+			setTimeout('startGiGAGenie()',2000); */
 		}    
 		//startGiGAGenie();
-	}
-	
+	}	
 }
 
 function sendControllCode(kind_code, command_code) {
@@ -146,13 +150,20 @@ function sendControllCode(kind_code, command_code) {
         dataType : "jsonp", 			            			            
         success : function(data){
         	var kind_name = ah_array[data.kind_code];
+        	var text = "";
         	
         	if(data.gubun == 0){
-        		alert(kind_name + '제어에 성공하였습니다!!');				            		
+        		//alert(kind_name + '제어에 성공하였습니다!!');
+        		text = kind_name + '[P2]제어에[P2] 성공하였습니다!!';
+        		sendTTS(text);
         	}else if(data.gubun == 1){
-        		alert(kind_name + '제어에 실패하였습니다!!');
+        		//alert(kind_name + '제어에 실패하였습니다!!');
+        		text = kind_name + '[P2]제어에[P2] 실패하였습니다!!';
+        		sendTTS(text);
+        	}else{
+        		setTimeout('startGiGAGenie()',2000);
         	}
-        	startGiGAGenie();        	
+        	//setTimeout('startGiGAGenie()',2000);
         },
         error:function(request,status,error){
         	alert('code:'+request.status+'\n'+'message:'+request.responseText+'\n'+'error:'+error);			            

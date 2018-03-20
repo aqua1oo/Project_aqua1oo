@@ -48,7 +48,7 @@ public class EgovDistributeController {
 		ModelAndView MView = new ModelAndView("jsonView");
 		
 		//동작 완료 구분 0:제어성공, 1:제어실패
-		String resultGubun = "";
+		String resultGubun = "1";
 		
 		try {
 
