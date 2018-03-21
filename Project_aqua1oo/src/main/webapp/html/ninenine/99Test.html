@@ -11,7 +11,6 @@
 </style>
 
 <script type="text/javascript" src="https://svcapi.gigagenie.ai/sdk/v1.0/js/gigagenie.js"></script>
-<script type="text/javascript" src="/js/egov/ninenine/comapi.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript">
@@ -131,6 +130,7 @@ function checkVoiceText(command) {
 
 function sendControllCode(kind_code, command_code) {
 	var url;
+	
 	//controll_code => 0:냉장고, 1:에어컨, 2:세탁기, 3:공기청정기 
 	switch(kind_code){
 		case 0 : url = "http://14.63.165.164:5011/Project_Gov/egovControllCode.do";
@@ -146,7 +146,7 @@ function sendControllCode(kind_code, command_code) {
 	$.ajax({
         type : "GET",        
         url : url, //각 가전의 서버			            
-        data : {kind_code : kind_code},
+        data : {kind_code : kind_code, command_code : command_code},
         dataType : "jsonp", 			            			            
         success : function(data){
         	var kind_name = ah_array[data.kind_code];

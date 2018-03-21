@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" Content="text/html; charset=utf-8" />
+<meta name="viewport" content="height=1080, width=1920, user-scalable=no" />
+<style type ="text/css">
+.btn {
+    font-size: 30px;
+    font-weight: bold;
+}
+</style>
+
+<script type="text/javascript" src="/Project_Gov/js/egov/ninenine/Common_GiGAGenie.js"></script>
+<script type="text/javascript" src="https://svcapi.gigagenie.ai/sdk/v1.0/js/gigagenie.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript">
+var apistatus=0;
+var options={};
+var ws;
+var status='NI';
+var appid;
+var containerid;
+var wsstate=0;
+var initstate=0;
+var authcode;
+
+var stop_array = ['스탑','스톱','스 톱','스 탑','스으탑','스으톱','스으 톱','스으 탑','그만','그 만','그으만','그으 만'];
+var ah_array = ['냉장고','에어컨','세탁기','공기청정기'];
+var command_array = ['켜줘','켜','켜주세요','켜어줘','꺼줘','꺼','꺼주세요','꺼어줘'];
+
+$(document).ready(function(){
+	Common_GiGAGenie.init();
+});
+
+</script>
+</head>
+<body>
+<br><br>
+<h1 align="center"><font color="white">기가지니에게 물어보세요</font></h1>
+</body>
+</html>

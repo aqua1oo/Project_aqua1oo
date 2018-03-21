@@ -5,7 +5,7 @@ egovframework\egov\autoSar\controll\EgovAutoSarController.class
 egovframework\example\sample\service\impl\SampleDAO.class
 egovframework\example\sample\service\SampleVO.class
 egovframework\example\sample\service\impl\EgovSampleServiceImpl.class
-egovframework\egov\distribute\controll\EgovDistributeController.class
+egovframework\egov\common\controll\Common_GiGAGenie.class
 egovframework\egov\mirrorLink\controll\EgovMirrorLinkController.class
 egovframework\example\cmmn\EgovSampleExcepHndlr.class
 egovframework\example\sample\service\SampleDefaultVO.class

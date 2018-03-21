@@ -1,4 +1,5 @@
 C:\eGovFrameDev-3.7.0-64bit\workspace\Project_Gov\src\main\java\egovframework\example\sample\service\impl\SampleDAO.java
+C:\eGovFrameDev-3.7.0-64bit\workspace\Project_Gov\src\main\java\egovframework\egov\common\controll\Common_GiGAGenie.java
 C:\eGovFrameDev-3.7.0-64bit\workspace\Project_Gov\src\main\java\egovframework\example\sample\service\impl\SampleMapper.java
 C:\eGovFrameDev-3.7.0-64bit\workspace\Project_Gov\src\main\java\egovframework\example\sample\service\EgovSampleService.java
 C:\eGovFrameDev-3.7.0-64bit\workspace\Project_Gov\src\main\java\egovframework\example\sample\service\impl\EgovSampleServiceImpl.java
@@ -6,7 +7,6 @@ C:\eGovFrameDev-3.7.0-64bit\workspace\Project_Gov\src\main\java\egovframework\eg
 C:\eGovFrameDev-3.7.0-64bit\workspace\Project_Gov\src\main\java\egovframework\egov\mirrorLink\controll\EgovMirrorLinkController.java
 C:\eGovFrameDev-3.7.0-64bit\workspace\Project_Gov\src\main\java\egovframework\example\sample\service\SampleVO.java
 C:\eGovFrameDev-3.7.0-64bit\workspace\Project_Gov\src\main\java\egovframework\egov\autoSar\controll\EgovAutoSarController.java
-C:\eGovFrameDev-3.7.0-64bit\workspace\Project_Gov\src\main\java\egovframework\egov\distribute\controll\EgovDistributeController.java
 C:\eGovFrameDev-3.7.0-64bit\workspace\Project_Gov\src\main\java\egovframework\example\cmmn\web\EgovBindingInitializer.java
 C:\eGovFrameDev-3.7.0-64bit\workspace\Project_Gov\src\main\java\egovframework\example\cmmn\EgovSampleExcepHndlr.java
 C:\eGovFrameDev-3.7.0-64bit\workspace\Project_Gov\src\main\java\egovframework\example\cmmn\EgovSampleOthersExcepHndlr.java
